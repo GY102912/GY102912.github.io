@@ -1,0 +1,43 @@
+title: GY Blog
+tagline: The Jekyll Butler
+description: "백엔드 개발 기록과 회고"
+url: "https://gy102912.github.io"
+baseurl: ""
+
+author:
+  name: GY
+  email: your@email.com
+
+lang: ko-KR
+timezone: Asia/Seoul
+
+paginate: 5
+paginate_path: "/page/:num/"
+permalink: pretty
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
