@@ -4,6 +4,8 @@ description: "백엔드 개발 기록과 회고"
 url: "https://gy102912.github.io"
 baseurl: ""
 
+remote_theme: poole/lanyon
+
 author:
   name: GY
   email: your@email.com
@@ -27,6 +29,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-remote-theme
 
 sass:
   sass_dir: _sass
